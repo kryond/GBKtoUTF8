@@ -1,0 +1,14 @@
+{
+	"version": "1.0.0",
+	"packages": [
+		{
+			"details": "https://github.com/kryond/GBKtoUTF8",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		}
+	]
+}
