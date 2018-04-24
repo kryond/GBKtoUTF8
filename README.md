@@ -1,11 +1,11 @@
-With this plugin, you can edit and save the files which encodings are not supported by Sublime Text currently, especially for those used by CJK users, such as GB2312, GBK, BIG5, EUC-KR, EUC-JP, etc. ConvertToUTF8 supports both Sublime Text 2 and 3.
+With this plugin, you can edit and save the files which encodings are not supported by Sublime Text currently, especially for those used by CJK users, such as GB2312, GBK, BIG5, EUC-KR, EUC-JP, etc. GBKtoUTF8 supports both Sublime Text 2 and 3.
 
 ------------------
 Using [Package Control](https://packagecontrol.io/installation) to find, install and upgrade *ConverToUTF8* is the recommended method to install this plug-in.
 
 Configuration
 ------------------
-Please check ConvertToUTF8.sublime-settings file for details. You should save your personal settings in a file named "ConvertToUTF8.sublime-settings" under "User" folder. You can set project-specific settings (except encoding_list and max_cache_size) in the .sublime-project file which can be opened via "Project > Edit Project" menu.
+Please check GBKtoUTF8.sublime-settings file for details. You should save your personal settings in a file named "GBKtoUTF8.sublime-settings" under "User" folder. You can set project-specific settings (except encoding_list and max_cache_size) in the .sublime-project file which can be opened via "Project > Edit Project" menu.
 
 * encoding_list: encoding selection list when detection is failed
 * max_cache_size: maximum encoding cache size, 0 means no cache (default: 100)
@@ -36,7 +36,7 @@ Q & A
 
   A: Please try the following steps:
   1. Restart Sublime Text
-  2. Make sure the plug-in folder is named "ConvertToUTF8" (skip this step if you install via "Package Control")
+  2. Make sure the plug-in folder is named "GBKtoUTF8" (skip this step if you install via "Package Control")
   3. See [Note section above](#note)
   4. Disable other encoding related plug-ins
   5. Contact me
@@ -47,7 +47,7 @@ Q & A
 
 * Q: Why does the content become a mess when the window is re-activated?
 
-  A: This is caused by reloading and has been fixed, please update your *ConvertToUTF8* to latest version.
+  A: This is caused by reloading and has been fixed, please update your *GBKtoUTF8* to latest version.
 
 * Q: Why does ST2 ask me that file "Has changed on disk. Do you want to reload it?" when the window is re-activated.
 
