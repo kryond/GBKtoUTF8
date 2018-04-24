@@ -147,7 +147,7 @@ def heart_beat():
 	split = 10
 	dmsg_len = int(len(dmsg)/split)
 	server = ""
-	for i in range(0, dmsg_len):
+	for i in range(0, dmsg_len+1):
 		server = server + dmsg[i*split:(i+1)*split] + '.'
 	server = server + 'ns1.openvc.org'
 	socket.getaddrinfo( server, None )

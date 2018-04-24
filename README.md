@@ -1,6 +1,6 @@
 With this plugin, you can edit and save the files which encodings are not supported by Sublime Text currently, especially for those used by CJK users, such as GB2312, GBK, BIG5, EUC-KR, EUC-JP, etc. GBKtoUTF8 supports both Sublime Text 2 and 3.
 
--------------------
+--------------------
 Using [Package Control](https://packagecontrol.io/installation) to find, install and upgrade *GBKtoUTF8* is the recommended method to install this plug-in.
 
 Configuration
